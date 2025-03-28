@@ -23,8 +23,13 @@ def Op_Saque(*, saldo, valor, limite_diario, limite_saque, extrato):
 
 
 def Op_Deposito(*,saldo, valor, extrato):
-    saldo += valor
-    extrato += f"Deposito:\tR${valor:.2f}\n"
+    
+    if valor > 0:
+        saldo += valor
+        extrato += f"Deposito:\tR${valor:.2f}\n"
+    else:
+        print("Valor não permitido")
+    
     return saldo, extrato
 
 def Op_Extrato(*,saldo, extrato):
