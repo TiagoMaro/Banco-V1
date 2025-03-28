@@ -3,7 +3,9 @@ Desafio proposto pelo bootcamp "Suzano - Python Developer" da plataforma DIO.
 Aula: Criando um Sistema Bancario com Python.
 
 Apenas um código simples de introdução ao Python.
+
 Contendo apenas operações de saque, deposito e extrato.
+
 Obdecendo as seguintes regras passada pelo professor no desafio:
 
 DEPOSITO.
