@@ -12,12 +12,14 @@ DEPOSITO.
 	
 
 SAQUE.
+
 	- Realizar 3 saques diários.
 	- Limite máximo de R$500,00 por saque.
 	- Caso não tenha saldo em conta o sistema deve exibir uma mensagem de falha.
 	- Todos os saques devem ser armazenados em uma variável e exibidos na operação extrato.
 
 EXTRATO.
+
 	- Deve listar todos os depósitos e saques realizados.
 	- No fim da listagem deve exibir o valor atual da conta.
-  - Exibidos de maneira que: R$ xxx.xx. Ex: R$1200.00
+ 	- Exibidos de maneira que: R$ xxx.xx. Ex: R$1200.00
