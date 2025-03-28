@@ -1,6 +1,6 @@
 def Op_Saque(*, saldo, valor, limite_diario, limite_saque, extrato):
     saldo_insuficiente = valor > saldo
-    limite_saque_atingido = valor> limite_saque
+    limite_saque_atingido = valor > limite_saque
     limite_diario_atingido = limite_diario > 3
 
     if saldo_insuficiente:
