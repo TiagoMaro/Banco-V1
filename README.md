@@ -6,6 +6,7 @@ Contendo apenas operações de saque, deposito e extrato.
 Obdecendo as seguintes regras passada pelo professor no desafio:
 
 DEPOSITO.
+
 	- Depositar apenas valores positivos
 	- Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
 	
